@@ -7,7 +7,6 @@
 	' ANALISTA            : Otacílio Ribeiro
 	' PROGRAMADOR         : Otacílio Ribeiro
 	' DATA DE CRIAÇÃO     : 11/03/2025
-	' DATA DE ALTERAÇÃO   : 
 	' OBSERVAÇÕES         : Classe de negócios da situação do uso dos filmes
 	'***********************************************************************************************
 */

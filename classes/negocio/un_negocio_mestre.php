@@ -7,7 +7,6 @@
 	' ANALISTA            : Otacílio Ribeiro
 	' PROGRAMADOR         : Otacílio Ribeiro
 	' DATA DE CRIAÇÃO     : 11/03/2025
-	' DATA DE ALTERAÇÃO   : 
 	' OBSERVAÇÕES         : Classe mestres de negócios
 	'***********************************************************************************************
 */
@@ -28,6 +27,7 @@ class clsNegocioMestre{
     private $qtFotos;
     private $idGrandeFormato;
     private $idTipoFilme;
+    private $idUsuario;
 
     //Construtor da classe
     public function __construct(){
@@ -47,6 +47,7 @@ class clsNegocioMestre{
         $this->qtFotos          = 0;
         $this->idGrandeFormato  = 0;
         $this->idTipoFilme      = 0;
+        $this->idUsuario        = 0;
 
     }
 
@@ -65,6 +66,7 @@ class clsNegocioMestre{
     public function setqtFotos          ($vData){ $this->qtFotos            = $vData; }
     public function setidGrandeFormato  ($vData){ $this->idGrandeFormato    = $vData; }
     public function setidTipoFilme      ($vData){ $this->idTipoFilme        = $vData; }
+    public function setidUsuario        ($vData){ $this->idUsuario          = $vData; }
 
     //Getters
 	public function getidAsa            (){ return $this->idAsa;            }
@@ -81,6 +83,7 @@ class clsNegocioMestre{
     public function getqtFotos          (){ return $this->qtFotos;          }
     public function getidGrandeFormato  (){ return $this->idGrandeFormato;  }
     public function getidTipoFilme      (){ return $this->idTipoFilme;      }
+    public function getidUsuario        (){ return $this->idUsuario;        }
 
 }
 ?>

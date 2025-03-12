@@ -7,7 +7,6 @@
 	' ANALISTA            : Otacílio Ribeiro / Tatiane Sousa
 	' PROGRAMADOR         : Otacílio Ribeiro
 	' DATA DE CRIAÇÃO     : 24/03/2007
-	' DATA DE ALTERAÇÃO   : 
 	' OBSERVAÇÕES         : Classe com funções úteis para o sistema
 	'***********************************************************************************************
 */
