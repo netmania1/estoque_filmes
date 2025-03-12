@@ -13,8 +13,8 @@
 class clsNegocioMestre{
 
     //Atributos da classe
-	private $idAsa;
-	private $idFabricante;
+    private $idAsa;
+    private $idFabricante;
     private $idFilme;
     private $idEstoque;
     private $dsValidade;
@@ -52,7 +52,7 @@ class clsNegocioMestre{
     }
 
     //Setters
-	public function setidAsa            ($vData){ $this->idAsa              = $vData; }
+    public function setidAsa            ($vData){ $this->idAsa              = $vData; }
     public function setidFabricante     ($vData){ $this->idFabricante       = $vData; }
     public function setidFilme          ($vData){ $this->idFilme	        = $vData; }
     public function setidEstoque        ($vData){ $this->idEstoque          = $vData; }
@@ -69,7 +69,7 @@ class clsNegocioMestre{
     public function setidUsuario        ($vData){ $this->idUsuario          = $vData; }
 
     //Getters
-	public function getidAsa            (){ return $this->idAsa;            }
+    public function getidAsa            (){ return $this->idAsa;            }
     public function getidFabricante     (){ return $this->idFabricante;     }
     public function getidFilme          (){ return $this->idFilme;          }
     public function getidEstoque        (){ return $this->idEstoque;        }
